@@ -1,0 +1,28 @@
+{
+  "name": "archontokenization-frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "client": "cd client && npm start",
+    "dev": "concurrently --kill-others-on-fail \"npm run start\" \"npm run client\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/p0lemarch/archonTokenization-frontend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/p0lemarch/archonTokenization-frontend/issues"
+  },
+  "homepage": "https://github.com/p0lemarch/archonTokenization-frontend#readme",
+  "dependencies": {
+    "concurrently": "^8.0.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.1.0"
+  }
+}

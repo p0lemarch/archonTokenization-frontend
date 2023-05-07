@@ -1,0 +1,11 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* client/src/tailwind.css */
+/* ... */
+.btn {
+  @apply bg-blue-500 text-white py-2 px-4 rounded;
+  @apply hover:bg-blue-700 transition-colors duration-300;
+}
+/* ... */
