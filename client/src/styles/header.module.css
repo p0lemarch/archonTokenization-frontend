@@ -1,0 +1,17 @@
+/* client/src/header.module.css */
+.link {
+  @apply text-green-500 uppercase tracking-wider font-semibold transition-all duration-300;
+}
+
+.link:hover {
+  @apply text-green-300;
+}
+
+.appLink {
+  @apply border-2 border-green-500 rounded px-5 text-green-500 uppercase tracking-wider font-semibold transition-all duration-300;
+  font-size: 1.75rem;
+}
+
+.appLink:hover {
+  @apply text-green-300;
+}
